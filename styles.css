@@ -1,0 +1,108 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.container-geral {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 7.6rem;
+}
+
+/*container flex para o grid*/
+.centraliza-containerflex-do-grid {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerflex-do-grid {
+    max-width: 1125px;
+    height: auto;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*container para o grid*/
+.container-grid {
+    display: grid;
+    grid-template-columns: auto auto; /* 2 colunas ajustadas ao conteúdo */
+    grid-template-rows: auto auto auto; /* 3 linhas ajustadas ao conteúdo */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+/* main*/
+.classflex-do-main{
+    max-width: 744px;
+    height: auto;
+    background-color: aqua;
+    display: block;
+}
+
+.banner {
+    max-width: 744px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.image-bner img {
+    width: 100%;
+}
+/*seção dos cards*/
+.posts {
+    max-width: 744px;
+    height: 450px;
+    background-color: burlywood;
+}
+
+/*aside*/
+.classflex-do-aisde{
+    width: 361px;
+    height: 600px;
+    background-color: chocolate;
+}
+
+@media (max-width: 980px){
+
+    /*container para o grid*/
+    .container-grid {
+        grid-template-columns: auto; /* Apenas 1 coluna */
+        grid-template-rows: auto; /* Linhas ajustadas automaticamente */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+}
+
+
