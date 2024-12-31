@@ -33,7 +33,7 @@ h1 {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-left: 7.6rem;
+    margin-left: 6.4rem;
 }
 
 /*container flex para o grid*/
@@ -48,12 +48,12 @@ h1 {
 }
 
 .containerflex-do-grid {
-    max-width: 1125px;
+    max-width: 1135px;
     height: auto;
-    background-color: brown;
     display: flex;
     justify-content: space-around;
-    padding-top: 60px;
+    padding-top: 52px;
+    
 }
 
 /*container para o grid*/
@@ -62,42 +62,50 @@ h1 {
     grid-template-columns: auto auto; /* 2 colunas ajustadas ao conteúdo */
     grid-template-rows: auto auto auto; /* 3 linhas ajustadas ao conteúdo */
     gap: 10px; /* Espaçamento entre os itens */
+    column-gap: 2rem;
 }
 
 /* main*/
 .classflex-do-main{
+    grid-column: 1 / 2;
     max-width: 744px;
     height: auto;
-    background-color: aqua;
     display: block;
     justify-content: center;
+    margin-top: 0;
+    gap: 0;
 }
 
 .banner {
     max-width: 744px;
-    margin: 0;
+    height: auto;
+    margin-top: -0.6rem;
+    margin-left: -1.3rem;
     padding: 0;
     gap: 0;
 }
 
 .image-bner img {
-    width: 100%;
+    max-width: 791px;
+    padding: 0px;
+    margin: 0px;
 }
 /*seção dos cards*/
 .posts {
     max-width: 744px;
     height: auto;
-    background-color: burlywood;
 }
 
 .h1-posts {
-    width: 744px;
+    max-width: 744px;
     height: 56px;
     background-color: #02A28F;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     text-align: left;
+    margin-top: -0.5rem;
+    
 }
 
 .h1-posts h1 {
@@ -108,21 +116,40 @@ h1 {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-left: 24px;
+}
 
+.h1-posts p a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 68px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 24px;
 }
 
 .container-id-card{  /*"container-cards"*/
     display: flex;
     flex-wrap: wrap; /* Permite que os cards "quebrem" para uma nova linha */
-    gap: 20px; /* Espaçamento entre os cards */
+    gap: 22px; /* Espaçamento entre os cards */
     justify-content: space-between; /* Espaça os cards uniformemente */
 }
 
 .id-card {
     display: flex;
     flex-wrap: wrap; /* Garante a quebra dos itens filhos para nova linha */
-    gap: 20px; /* Espaçamento entre os itens filhos */
+    gap: 24px; /* Espaçamento entre os itens filhos */
     width: 100%; /* Largura total do contêiner pai */
+    margin-top: 1rem;
 }
 
 /*confg do card*/
@@ -209,13 +236,140 @@ span {
 }
 
 /*aside*/
-.classflex-do-aisde{
-    width: 361px;
-    height: 600px;
-    background-color: chocolate;
+.flexgrid-do-aside {
+    display: flex;          /* Flexbox para layout */
+    flex-direction: column; /* Empilha os itens em coluna */
+    gap: 20px;              /* Espaçamento entre os itens */
+    height: auto;
+    width: 361px;           /* Garante o uso total da largura disponível */
+    
 }
 
-@media (max-width: 980px){
+.classflex-do-aisde {
+    display: grid;          /* Ativa o layout de grid */
+    grid-template-rows: auto auto; /* Define duas linhas automáticas para empilhar os elementos */
+    gap: 20px;              /* Espaçamento entre as linhas */
+    width: 100%;            /* Garante que o aside ocupe toda a largura permitida */
+}
+
+/*config do poste popular*/
+.posts-Pop{
+    width: 361px;
+    height: 391;
+    
+}
+
+.pop{
+    width: 93%;
+    height: 48px;
+    gap: 0;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    padding-left: 1.6rem;
+    padding-right: 0;
+}
+
+.pop h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-pop {
+    width: 99%;
+    height: 350px;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#id-pop {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 96px;
+    gap: 20px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-top: 5.6%;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+
+}
+
+.image-pop {
+    width: 132px;
+    height: 70px;
+    top: 201px;
+    left: 937px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.image-pop img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-do-text-pop {
+    width: 198px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-pop {
+    width: 60%;
+    height: auto;
+    display: block;
+    
+}
+
+#h1-pop {
+    width: 172px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#h2-pop {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    color: #616161;
+}
+
+/*inicio da categorias*/
+
+
+
+
+@media (max-width: 1130px){
 
     /*container para o grid*/
     .container-grid {
@@ -223,6 +377,10 @@ span {
         grid-template-rows: auto; /* Linhas ajustadas automaticamente */
         gap: 10px; /* Espaçamento entre os itens */
     }
+}
+
+@media (max-width: 1130px){
+    
 }
 
 
