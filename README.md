@@ -31,7 +31,7 @@ O projeto está organizado da seguinte forma:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/ademarjmjr/the-dev-news.git
+git clone https://github.com/ademarjmjr/Blog-simples.git
 ```
 
 2. Navegue até o diretório do projeto:
@@ -53,7 +53,7 @@ cd the-dev-news
 Desenvolvido por **Ademar Junior**. Entre em contato para sugestões ou dúvidas:
 
 - GitHub: [@ademarjmjr](https://github.com/ademarjmjr)
-- E-mail: ademar@example.com
+- E-mail: ademarm629@gmail.com
 
 ## Licença
 
