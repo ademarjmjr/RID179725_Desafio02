@@ -37,7 +37,7 @@ git clone https://github.com/ademarjmjr/Blog-simples.git
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd the-dev-news
+cd Blog-simples
 ```
 
 3. Abra o arquivo `index.html` em um navegador de sua escolha.
