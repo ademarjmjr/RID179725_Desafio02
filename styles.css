@@ -446,6 +446,7 @@ span {
 #h1-cat a {
     text-decoration: none;
     color: #616161;
+    font-family: 'Montserrat';
 }
 
 #p-cat {
@@ -516,12 +517,10 @@ footer {
         width: 361px;
         height: auto;
     }
-/*categorias =============================================*/
+    /*categorias =============================================*/
     .container-categoria {
         width: 361px;
     }
-
-
 
 }
 
@@ -562,19 +561,22 @@ footer {
     .h1-posts {
         width: 94%;
         margin: 0;
+        font-family: 'Montserrat';
+    }
+
+    .h1-posts>h1{
+        font-family: 'Montserrat';
     }
 
     .container-id-card {
         width: 100%;
         margin-bottom: 2%;
-        background-color: darkseagreen;
     }
 
     .id-card {
         display: flex;
         justify-content: center;
     }
-
 
     .container-aside {
         display: flex;
