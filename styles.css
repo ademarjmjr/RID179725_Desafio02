@@ -33,7 +33,8 @@ h1 {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    margin-left: 6.4rem;
+    margin-left: 8%;
+    padding-top: 10px;
 }
 
 /*container flex para o grid*/
@@ -45,6 +46,7 @@ h1 {
     gap: 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 3.5%;
 }
 
 .containerflex-do-grid {
@@ -96,6 +98,8 @@ h1 {
     height: auto;
 }
 
+
+
 .h1-posts {
     max-width: 744px;
     height: 56px;
@@ -103,6 +107,7 @@ h1 {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: left;
     margin-top: -0.5rem;
     
@@ -114,14 +119,13 @@ h1 {
     font-weight: 700;
     line-height: 24.38px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    padding: 0;
     margin-left: 24px;
 }
 
 .h1-posts p a {
     color: #FFFFFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 500;
     line-height: 17.07px;
@@ -147,7 +151,7 @@ h1 {
 .id-card {
     display: flex;
     flex-wrap: wrap; /* Garante a quebra dos itens filhos para nova linha */
-    gap: 24px; /* Espaçamento entre os itens filhos */
+    gap: 20px; /* Espaçamento entre os itens filhos */
     width: 100%; /* Largura total do contêiner pai */
     margin-top: 1rem;
 }
@@ -181,6 +185,11 @@ h1 {
     gap: 15px;
     align-items: baseline;
     font-family: 'Montserrat';
+}
+
+.text-information a {
+    text-decoration: none;
+    color: #000000;
 }
 
 #card-h2{
@@ -255,7 +264,7 @@ span {
 /*config do poste popular*/
 .posts-Pop{
     width: 361px;
-    height: 391;
+    height: 391px;
     
 }
 
@@ -288,11 +297,12 @@ span {
 
 .container-pop {
     width: 99%;
-    height: 350px;
+    height: auto;
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 10px 0px 0px 0px;
     opacity: 0px;
+    margin-bottom: 7%;
 }
 
 #id-pop {
@@ -356,6 +366,11 @@ span {
     padding-top: 1rem;
 }
 
+#h1-pop>a {
+    text-decoration: none;
+    color: #000000;
+}
+
 #h2-pop {
     font-family: 'Montserrat';
     font-size: 12px;
@@ -365,22 +380,223 @@ span {
 }
 
 /*inicio da categorias*/
+.container-categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 361px;
+    height: 184px;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
 
+.cat {
+    width: 93%;
+    height: 48px;
+    gap: 0;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding-left: 1.6rem;
+    padding-right: 0;
+    box-shadow: 0px 10px 10px 0px #0000002A;
 
+}
+
+.cat>h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+}
+
+#categoria {
+    width: 360px;
+    height: 20px;
+    gap: 0px;
+    width: Fixed (360px)px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    gap: 20px;
+}
+
+#h1-cat {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+}
+
+#h1-cat a {
+    text-decoration: none;
+    color: #616161;
+}
+
+#p-cat {
+    color: #616161;
+}
+
+footer {
+    
+    height: 48px;
+   
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0px;
+    background-color: #02A28F;
+}
+
+#p-footer {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
 
 
 @media (max-width: 1130px){
 
+    .centraliza-containerflex-do-grid {
+        margin-bottom: 5%;
+    }
     /*container para o grid*/
     .container-grid {
         grid-template-columns: auto; /* Apenas 1 coluna */
         grid-template-rows: auto; /* Linhas ajustadas automaticamente */
         gap: 10px; /* Espaçamento entre os itens */
     }
+
+    .id-card {
+        gap: 24px;
+    }
+
+    /*grid do aside*/
+    .flexgrid-do-aside {
+        width: 100%;
+    }
+
+    .classflex-do-aisde {
+        grid-template-columns: auto;
+        grid-template-rows: auto; /* Linhas ajustadas automaticamente */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    .container-aside {
+    }
+
+    .posts-Pop {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container-pop {
+        width: 361px;
+        height: auto;
+    }
+/*categorias =============================================*/
+    .container-categoria {
+        width: 361px;
+    }
+
+
+
 }
 
-@media (max-width: 1130px){
+@media (max-width: 800px){
     
+    header>h1 {
+        font-size: 2rem;
+        margin-left: 6%;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .imagem-centro {
+        width: 98%;
+    }
+
+    .image-bner>img {
+        width: 100%;
+    }
+
+    .posts-Pop {
+        flex-direction: column;
+        justify-content: center;
+        width: 98%;
+    }
+
+    .centraliza-h1-posts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1-posts {
+        width: 94%;
+        margin: 0;
+    }
+
+    .container-id-card {
+        width: 100%;
+        margin-bottom: 2%;
+        background-color: darkseagreen;
+    }
+
+    .id-card {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .container-aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexgrid-do-aside {
+        height: 100%;
+    }
+
+    .classflex-do-aisde {
+        height: 100%;
+    }
+
+    .container-aside {
+        height: auto;
+    }
+
+    .posts-Pop {
+        width: 361px;
+        height: auto;
+    }
 }
 
 
