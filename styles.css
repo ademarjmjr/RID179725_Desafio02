@@ -601,4 +601,53 @@ footer {
     }
 }
 
+@media (max-width: 450px){
 
+    
+
+    .containerflex-do-grid {
+        padding-top: 5%;
+    }
+
+    .id-card {
+        width: 100%;
+    }
+
+    #card {
+        width: 368px;
+    }
+
+    .image {
+        height: 48%;
+    }
+
+    .image img {
+        width: 368px;
+        
+    }
+
+    .container-pop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pop, #id-pop {
+        width: 368px;
+    }
+
+    .centraliza-cat {
+        width: 368px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-categoria {
+        width: 368px;
+    }
+
+    #categoria {
+        max-width: 100%;
+
+    }
+}
