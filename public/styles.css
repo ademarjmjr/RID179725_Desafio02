@@ -1,0 +1,667 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.container-geral {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 8%;
+    padding-top: 10px;
+}
+
+/*container flex para o grid*/
+.centraliza-containerflex-do-grid {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5%;
+}
+
+.containerflex-do-grid {
+    max-width: 1135px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 52px;
+    
+}
+
+/*container para o grid*/
+.container-grid {
+    display: grid;
+    grid-template-columns: auto auto; /* 2 colunas ajustadas ao conteúdo */
+    grid-template-rows: auto auto auto; /* 3 linhas ajustadas ao conteúdo */
+    gap: 10px; /* Espaçamento entre os itens */
+    column-gap: 2rem;
+}
+
+/* main*/
+.classflex-do-main{
+    grid-column: 1 / 2;
+    max-width: 744px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 0;
+    gap: 0;
+}
+
+.banner {
+    max-width: 744px;
+    height: auto;
+    margin-top: -0.6rem;
+    margin-left: -1.3rem;
+    padding: 0;
+    gap: 0;
+}
+
+.image-bner img {
+    max-width: 791px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*seção dos cards*/
+.posts {
+    max-width: 744px;
+    height: auto;
+}
+
+
+
+.h1-posts {
+    max-width: 744px;
+    height: 56px;
+    background-color: #02A28F;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: -0.5rem;
+    
+}
+
+.h1-posts h1 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    padding: 0;
+    margin-left: 24px;
+}
+
+.h1-posts p a {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 68px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 24px;
+}
+
+.container-id-card{  /*"container-cards"*/
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards "quebrem" para uma nova linha */
+    gap: 22px; /* Espaçamento entre os cards */
+    justify-content: space-between; /* Espaça os cards uniformemente */
+}
+
+.id-card {
+    display: flex;
+    flex-wrap: wrap; /* Garante a quebra dos itens filhos para nova linha */
+    gap: 20px; /* Espaçamento entre os itens filhos */
+    width: 100%; /* Largura total do contêiner pai */
+    margin-top: 1rem;
+}
+
+/*confg do card*/
+#card { /*card*/
+    flex: 0 0 calc(50% - 20px); /* Cada card ocupa 50% da largura menos o gap */
+    height: 400px; /* Altura fixa dos cards (ajustável) */
+    background-color: #ffffffeb;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.092);
+}
+
+.image {
+    width: 100%;
+    height: 50%;
+}
+
+.container-card-text {
+    width: 100%;
+    height: 50%;
+    gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-information {
+    width: 95%;
+    height: 105%;
+    gap: 15px;
+    align-items: baseline;
+    font-family: 'Montserrat';
+}
+
+.text-information a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#card-h2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    height: auto;
+    color: #02A28F;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#card-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    height: auto;
+    color: #000000;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+#card-h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    height: auto;
+    color: #616161;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 500; 
+    color: #616161;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#card-p {
+    font-size: 14px;
+    line-height: 17.07px;
+    height: auto;
+}
+
+/*aside*/
+.flexgrid-do-aside {
+    display: flex;          /* Flexbox para layout */
+    flex-direction: column; /* Empilha os itens em coluna */
+    gap: 20px;              /* Espaçamento entre os itens */
+    height: auto;
+    width: 361px;           /* Garante o uso total da largura disponível */
+    
+}
+
+.classflex-do-aisde {
+    display: grid;          /* Ativa o layout de grid */
+    grid-template-rows: auto auto; /* Define duas linhas automáticas para empilhar os elementos */
+    gap: 20px;              /* Espaçamento entre as linhas */
+    width: 100%;            /* Garante que o aside ocupe toda a largura permitida */
+}
+
+/*config do poste popular*/
+.posts-Pop{
+    width: 361px;
+    height: 391px;
+    
+}
+
+.pop{
+    width: 93%;
+    height: 48px;
+    gap: 0;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    padding-left: 1.6rem;
+    padding-right: 0;
+}
+
+.pop h3 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-pop {
+    width: 99%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 7%;
+}
+
+#id-pop {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 96px;
+    gap: 20px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-top: 5.6%;
+    box-shadow: 0px 10px 10px 0px #0000001A;
+
+}
+
+.image-pop {
+    width: 132px;
+    height: 70px;
+    top: 201px;
+    left: 937px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.image-pop img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-do-text-pop {
+    width: 198px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-pop {
+    width: 60%;
+    height: auto;
+    display: block;
+    
+}
+
+#h1-pop {
+    width: 172px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#h1-pop>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#h2-pop {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    color: #616161;
+}
+
+/*inicio da categorias*/
+.container-categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 361px;
+    height: 184px;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.cat {
+    width: 93%;
+    height: 48px;
+    gap: 0;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding-left: 1.6rem;
+    padding-right: 0;
+    box-shadow: 0px 10px 10px 0px #0000002A;
+
+}
+
+.cat>h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+}
+
+#categoria {
+    width: 360px;
+    height: 20px;
+    gap: 0px;
+    width: Fixed (360px)px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    gap: 20px;
+}
+
+#h1-cat {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+}
+
+#h1-cat a {
+    text-decoration: none;
+    color: #616161;
+    font-family: 'Montserrat';
+}
+
+#p-cat {
+    color: #616161;
+}
+
+footer {
+    
+    height: 48px;
+   
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0px;
+    background-color: #02A28F;
+}
+
+#p-footer {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1130px){
+
+    .centraliza-containerflex-do-grid {
+        margin-bottom: 5%;
+    }
+    /*container para o grid*/
+    .container-grid {
+        grid-template-columns: auto; /* Apenas 1 coluna */
+        grid-template-rows: auto; /* Linhas ajustadas automaticamente */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    .id-card {
+        gap: 24px;
+    }
+
+    /*grid do aside*/
+    .flexgrid-do-aside {
+        width: 100%;
+    }
+
+    .classflex-do-aisde {
+        grid-template-columns: auto;
+        grid-template-rows: auto; /* Linhas ajustadas automaticamente */
+        gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    .container-aside {
+    }
+
+    .posts-Pop {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container-pop {
+        width: 361px;
+        height: auto;
+    }
+    /*categorias =============================================*/
+    .container-categoria {
+        width: 361px;
+    }
+
+}
+
+@media (max-width: 800px){
+
+    .containerflex-do-grid {
+        padding-top: 5%;
+    }
+    
+    header>h1 {
+        font-size: 2rem;
+        margin-left: 6%;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .imagem-centro {
+        width: 98%;
+    }
+
+    .image-bner>img {
+        width: 100%;
+    }
+
+    .posts-Pop {
+        flex-direction: column;
+        justify-content: center;
+        width: 98%;
+    }
+
+    .centraliza-h1-posts {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1-posts {
+        width: 94%;
+        margin: 0;
+        font-family: 'Montserrat';
+    }
+
+    .h1-posts>h1{
+        font-family: 'Montserrat';
+    }
+
+    .container-id-card {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .id-card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-aside {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexgrid-do-aside {
+        height: 100%;
+    }
+
+    .classflex-do-aisde {
+        height: 100%;
+    }
+
+    .container-aside {
+        height: auto;
+    }
+
+    .posts-Pop {
+        width: 361px;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px){
+
+    
+
+    .containerflex-do-grid {
+        padding-top: 5%;
+    }
+
+    .image-bner img {
+        width: 100%;
+    }
+
+    .id-card {
+        width: 100%;
+    }
+
+    #card {
+        width: 348px;
+    }
+
+    .image {
+        height: 48%;
+    }
+
+    .image img {
+        width: 348px;
+        
+    }
+
+    .container-pop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pop {
+        width: 330px;
+        box-shadow: 0px 10px 10px 0px #0000001A;
+    }
+
+    #id-pop {
+        width: 348px;
+        margin: 0;
+    }
+
+    .centraliza-cat {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-categoria {
+        width: 348px;
+    }
+
+    #categoria {
+        max-width: 348px;
+    }
+}
