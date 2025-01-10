@@ -614,7 +614,7 @@ footer {
     }
 
     #card {
-        width: 368px;
+        width: 348px;
     }
 
     .image {
@@ -622,7 +622,7 @@ footer {
     }
 
     .image img {
-        width: 368px;
+        width: 348px;
         
     }
 
@@ -632,22 +632,22 @@ footer {
     }
 
     .pop, #id-pop {
-        width: 368px;
+        width: 348px;
     }
 
     .centraliza-cat {
-        width: 368px;
+        width: 348px;
         height: auto;
         display: flex;
         justify-content: center;
     }
 
     .container-categoria {
-        width: 368px;
+        width: 348px;
     }
 
     #categoria {
-        max-width: 100%;
+        max-width: 348px;
 
     }
 }
