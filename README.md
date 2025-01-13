@@ -15,10 +15,16 @@ Link do site disponibilizado: https://newsdev-blog.netlify.app/
 O projeto está organizado da seguinte forma:
 
 ```
-.
-├── index.html       # Página principal
-├── styles.css       # Estilos do site
-├── imagens/         # Diretório com as imagens usadas no projeto
+>Public
+    ├── imagens/         # Diretório com as imagens usadas no projeto
+    ├── index.html       # Página principal
+    ├── styles.css       # Estilos do site
+    ├── _redirects      
+    ├── netlify.toml
+    └── robots.txt       
+├── .gitattributes
+├── LICENSE
+├── package.json
 └── README.md        # Documentação do projeto
 ```
 
