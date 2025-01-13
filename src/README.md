@@ -2,6 +2,8 @@
 
 The Dev News é um blog focado em desenvolvimento, produtividade, saúde e opiniões sobre tecnologia. Este projeto é uma demonstração de como criar um site responsivo, organizado e visualmente atraente, utilizando HTML e CSS.
 
+Link do site disponibilizado: https://newsdev-blog.netlify.app/
+
 ## Funcionalidades
 
 - **Layout responsivo**: Adaptado para diferentes tamanhos de tela.
@@ -53,7 +55,7 @@ cd Blog-simples
 Desenvolvido por **Ademar josé Martins Junior**. Entre em contato para sugestões ou dúvidas:
 
 - GitHub: [@ademarjmjr](https://github.com/ademarjmjr)
-- E-mail: ademarm629@gmail.com
+- E-mail: martinsdomsn@hotmail.com
 
 ## Licença
 
