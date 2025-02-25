@@ -18,7 +18,7 @@ body{
 
 header nav {
     width: 100%;
-    height: 70px;
+    height: 4rem;
     background-color: #02A28F;
     display: flex;
     align-items: center;
@@ -26,15 +26,15 @@ header nav {
 
 h1 {
     color: #FFFFFF;
-    font-family: Montserrat;
-    font-size: 36px;
+    font-family: "Montserrat";
+    font-size: 2.5rem;/*36px;*/
     font-weight: 700;
     line-height: 43.88px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-left: 8%;
-    padding-top: 10px;
+    padding-top: 0.1%;/*10px;*/
 }
 
 /*container flex para o grid*/
